@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+	<Opciones>
+		<Opcion Url="/Default.aspx?Id=0" Texto="Home" Id="0"></Opcion>
+		<Opcion Url="/Default.aspx?Id=1" Texto="Carta" Id="1"></Opcion>
+		<Opcion Url="/Default.aspx?Id=2" Texto="Contacto" Id="2"></Opcion>
+		<Opcion Url="/Default.aspx?Id=3" Texto="Play Room" Id="3"></Opcion>
+	</Opciones>
+
+	<Platillos>
+
+		<Tipo Nombre="Desayunos">
+			<Platillo Nombre="Huevos con Jamón" Orden="1">
+				<Descripcion><![CDATA[Huevos revueltos con Jamon & Queso]]></Descripcion>
+				<Precio>$25</Precio>
+				<Imagen>assets/img/huevos.jpg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Desayuno Europeo" Orden="2">
+				<Descripcion><![CDATA[ Café y pan francés]]></Descripcion>
+				<Precio>
+					$23
+				</Precio>
+				<Imagen>assets/img/Desayuno_europeo.jpg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Desayuno Estudiante" Orden="3">
+				<Descripcion><![CDATA[ Café, Huevos y Yogurth]]></Descripcion>
+				<Precio>$30</Precio>
+				<Imagen>assets/img/Desayono_Estudiante.jpg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Desayuno De Lujo" Orden="4">
+				<Descripcion><![CDATA[ Café, Jugo, fruta, huevos y pan francés]]></Descripcion>
+				<Precio>
+					$45
+				</Precio>
+				<Imagen>assets/img/Desayuno_Lujo.jpeg</Imagen>
+			</Platillo>
+		</Tipo>
+
+		<Tipo Nombre="Comidas">
+			<Platillo Nombre="Cemita" Orden="1">
+				<Descripcion><![CDATA[ Cemita de Milanesa, Carne enchilada, Jamón]]></Descripcion>
+				<Precio>
+					$25
+				</Precio>
+				<Imagen>assets/img/cemitas-poblanas-1024x676.jpg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Comida corrida" Orden="2">
+				<Descripcion><![CDATA[ Comida de 3 tiempos incluye bebida]]></Descripcion>
+				<Precio>
+					$45
+				</Precio>
+				<Imagen>assets/img/Comida_corrida.jpeg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Enchiladas Suizas" Orden="3">
+				<Descripcion><![CDATA[ 3 enchiladas en salsa verde]]></Descripcion>
+				<Precio>
+					$35
+				</Precio>
+				<Imagen>assets/img/Enchiladas_Suizas.jpg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Mole poblano" Orden="4" Especialidad="SI">
+				<Descripcion><![CDATA[ Mole poblano servido con arroz, pollo y frijoles]]></Descripcion>
+				<nombre></nombre>
+				<TextoEspecial><![CDATA[El mole poblano es una especialidad cultural de la ciudad de Puebla. Originalmente consistía principalmente en una salsa de una gran variedad de ingredientes vertida sobre piezas de guajolote, nombre que se le da en México al pavo doméstico, aunque actualmente es común su uso con pollo u otras carnes, siendo uno de los platillos más representativos de Puebla. Se pueden crear platillos rápidos como lo son: las enchiladas de mole poblano rellenas con pollo desmenuzado.]]></TextoEspecial>
+				<Precio>
+					$65
+				</Precio>
+				<Imagen>assets/img/8.jpg</Imagen>
+				<Imagen>assets/img/8a.jpg</Imagen>
+				<Ingredientes>
+					<Ingrediente Nombre="Ingredientes">chocolate, chiles,jitomate,almendras</Ingrediente>
+
+					<Ingrediente Imagen="assets/img/8b.jpg" Nombre="Chocolate"></Ingrediente>
+
+
+					<Ingrediente Imagen="assets/img/8c.jpg" Nombre="Ajonjolí"></Ingrediente>
+				</Ingredientes>
+			</Platillo>
+		</Tipo>
+
+		<Tipo Nombre="Cenas">
+			<Platillo Nombre="Mole poblano 2" Orden="4" Especialidad="SI">
+				<Descripcion><![CDATA[ Mole poblano servido con arroz, pollo y frijoles]]></Descripcion>
+				<nombre></nombre>
+				<TextoEspecial><![CDATA[El mole poblano es una especialidad cultural de la ciudad de Puebla. Originalmente consistía principalmente en una salsa de una gran variedad de ingredientes vertida sobre piezas de guajolote, nombre que se le da en México al pavo doméstico, aunque actualmente es común su uso con pollo u otras carnes, siendo uno de los platillos más representativos de Puebla. Se pueden crear platillos rápidos como lo son: las enchiladas de mole poblano rellenas con pollo desmenuzado.]]></TextoEspecial>
+				<Precio>
+					$65
+				</Precio>
+				<Imagen>assets/img/8.jpg</Imagen>
+				<Imagen>assets/img/8a.jpg</Imagen>
+				<Ingredientes>
+					<Ingrediente Nombre="Ingredientes">chocolate, chiles,jitomate,almendras</Ingrediente>
+
+					<Ingrediente Imagen="assets/img/8b.jpg" Nombre="Chocolate"></Ingrediente>
+
+
+					<Ingrediente Imagen="assets/img/8c.jpg" Nombre="Ajonjolí"></Ingrediente>
+				</Ingredientes>
+			</Platillo>
+			<Platillo Nombre="Tacos al pastor" Orden="1">
+				<Descripcion><![CDATA[ 5 tacos al pastor]]></Descripcion>
+				<Precio>
+					$65
+				</Precio>
+				<Imagen>assets/img/Tacos-Pastor-Portada.jpg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Tacos árabes" Orden="2">
+				<Descripcion><![CDATA[ 1 Taco árabe]]></Descripcion>
+				<Precio>
+					$25
+				</Precio>
+				<Imagen>assets/img/tacos_arabes.jpeg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Tamales" Orden="3">
+				<Descripcion><![CDATA[ de mole, de dulce, de salsa verde]]></Descripcion>
+				<Precio>
+					$15
+				</Precio>
+				<Imagen>assets/img/11.jpg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Tacos de carne asada" Orden="4">
+				<Descripcion><![CDATA[ 5 Tacos de carne asada con cebolla y cilantro]]></Descripcion>
+				<Precio>
+					$25
+				</Precio>
+				<Imagen>assets/img/asada.jpeg</Imagen>
+			</Platillo>
+		</Tipo>
+
+		<Tipo Nombre="Bebidas">
+			<Platillo Nombre="Refresco" Orden="1">
+				<Descripcion><![CDATA[ Coca Cola, Sprite, Sidral]]></Descripcion>
+				<Precio>
+					$15
+				</Precio>
+				<Imagen>assets/img/refrescos.jpeg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Agua de sabores" Orden="2">
+				<Descripcion><![CDATA[ Horchata, Jamaica y Limón]]></Descripcion>
+				<Precio>
+					$12
+				</Precio>
+				<Imagen>assets/img/aguas.jpeg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Cerveza" Orden="3">
+				<Descripcion><![CDATA[ Corona, Indio, Heineken, TKT]]></Descripcion>
+				<Precio>
+					$30
+				</Precio>
+				<Imagen>assets/img/cervez.jpeg</Imagen>
+			</Platillo>
+			<Platillo Nombre="Agua Natural" Orden="4">
+				<Descripcion><![CDATA[ Agua natural]]></Descripcion>
+				<Precio>
+					$5
+				</Precio>
+				<Imagen>assets/img/agua.jpeg</Imagen>
+			</Platillo>
+		</Tipo>
+	</Platillos>
+
+	<Datos>
+		<NombreRestaurant>Coffee Station</NombreRestaurant>
+		<Descripcion>Bienvenidos a Coffee Station, donde podras encontrar un excelente servicio y calidad</Descripcion>
+		<Direccion>M. Flores #516 Col. San felipe Hueyotlipan CP.72489</Direccion>
+		<Telefono>2211205394</Telefono>
+		<correo>contacto@coffestation.com</correo>
+		<Imagen>/img/Fachada.jpg</Imagen>
+		<Horarios>
+			<Horario>De Lunes a Jueves: 08:00 a 20:00</Horario>
+			<Horario>Viernes y Sabados: 08:00 a 22:00</Horario>
+			<Horario>Domingos: 08:00 a 16:00</Horario>
+		</Horarios>
+	</Datos>
+
+</Menu>
